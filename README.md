@@ -26,4 +26,3 @@ The preprocessed image is passed to the Stable Diffusion v1.5 model via an image
 
 5. Style Transformation & Output
 The model generates a styled image. The result is resized back to the original aspect ratio and displayed in the interface.
-
