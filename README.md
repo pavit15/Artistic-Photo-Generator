@@ -25,9 +25,9 @@ Edges are detected using adaptive thresholding and combined with the smoothed im
 
 5. Stable Diffusion Img2Img Pipeline
 The preprocessed image is passed to the Stable Diffusion v1.5 model via an image-to-image pipeline, guided by the input art style chosen(comic book, anime, watercolor, etc.).
-<img src="https://github.com/pavit15/Artistic-Photo-Generator/blob/main/imgs/img3.jpg?raw=true" alt="Generated Artistic Image" width="400"/>
+<img src="https://github.com/pavit15/Artistic-Photo-Generator/blob/main/imgs/img3.jpg?raw=true" alt="Generated Artistic Image" width="600"/>
 
 7. Style Transformation & Output
 The model generates a styled image. The result is resized back to the original aspect ratio and displayed in the interface.
-<img src="https://github.com/pavit15/Artistic-Photo-Generator/blob/main/imgs/img4.jpg?raw=true" alt="Generated Artistic Image" width="400"/>
+<img src="https://github.com/pavit15/Artistic-Photo-Generator/blob/main/imgs/img4.jpg?raw=true" alt="Generated Artistic Image" width="600"/>
 
