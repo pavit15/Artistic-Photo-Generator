@@ -14,15 +14,20 @@ In this extension, I focused on applying image generation techniques for specifi
 
 ## Architecture of the project
 1. Upload a photo to the web interface.
+<img src="https://github.com/pavit15/Artistic-Photo-Generator/blob/main/imgs/img1.jpg?raw=true" alt="Generated Artistic Image" width="400"/>
 
 2. Preprocessing using edge preserving filters such as bilateral filter
-This is done to smooth colors while keeping edges sharp which is necessary for the effects. 
+This is done to smooth colors while keeping edges sharp which is necessary for the effects.
+<img src="https://github.com/pavit15/Artistic-Photo-Generator/blob/main/imgs/img2.jpg?raw=true" alt="Generated Artistic Image" width="400"/>
 
-3. Edge Detection & Combination
+4. Edge Detection & Combination
 Edges are detected using adaptive thresholding and combined with the smoothed image to enhance outlines, mimicking the art.
 
-4. Stable Diffusion Img2Img Pipeline
+5. Stable Diffusion Img2Img Pipeline
 The preprocessed image is passed to the Stable Diffusion v1.5 model via an image-to-image pipeline, guided by the input art style chosen(comic book, anime, watercolor, etc.).
+<img src="https://github.com/pavit15/Artistic-Photo-Generator/blob/main/imgs/img3.jpg?raw=true" alt="Generated Artistic Image" width="400"/>
 
-5. Style Transformation & Output
+7. Style Transformation & Output
 The model generates a styled image. The result is resized back to the original aspect ratio and displayed in the interface.
+<img src="https://github.com/pavit15/Artistic-Photo-Generator/blob/main/imgs/img4.jpg?raw=true" alt="Generated Artistic Image" width="400"/>
+
