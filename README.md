@@ -14,11 +14,11 @@ In this extension, I focused on applying image generation techniques for specifi
 
 ## Architecture of the project
 1. Upload a photo to the web interface.
-<img src="https://github.com/pavit15/Artistic-Photo-Generator/blob/main/imgs/img1.jpg?raw=true" alt="Generated Artistic Image" width="400"/>
+<img src="https://github.com/pavit15/Artistic-Photo-Generator/blob/main/imgs/img1.jpg?raw=true" alt="Generated Artistic Image" width="600"/>
 
 2. Preprocessing using edge preserving filters such as bilateral filter
 This is done to smooth colors while keeping edges sharp which is necessary for the effects.
-<img src="https://github.com/pavit15/Artistic-Photo-Generator/blob/main/imgs/img2.jpg?raw=true" alt="Generated Artistic Image" width="400"/>
+<img src="https://github.com/pavit15/Artistic-Photo-Generator/blob/main/imgs/img2.jpg?raw=true" alt="Generated Artistic Image" width="600"/>
 
 4. Edge Detection & Combination
 Edges are detected using adaptive thresholding and combined with the smoothed image to enhance outlines, mimicking the art.
